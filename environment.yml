@@ -1,0 +1,16 @@
+name: qiskit
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - jupyter
+  - matplotlib
+  - pip
+  - pip:
+      - qiskit>=1.0.0
+      - qiskit-aer
+      - qiskit-ibm-provider
+      - qiskit-ibm-runtime
+      - pylatexenc
+      - sympy

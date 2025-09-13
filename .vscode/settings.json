@@ -1,9 +1,9 @@
 {
   "editor.bracketPairColorization.enabled": true,
   "editor.cursorBlinking": "solid",
-  "editor.fontFamily": "ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono', 'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro', 'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace",
+  // "editor.fontFamily": "ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono', 'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro', 'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace",
   "editor.fontLigatures": false,
-  "editor.fontSize": 22,
+  // "editor.fontSize": 10,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.lineNumbers": "on",
@@ -13,12 +13,15 @@
   "editor.tabSize": 2,
   "editor.useTabStops": true,
   "emmet.triggerExpansionOnTab": true,
-  "explorer.openEditors.visible": 0,
+  // "explorer.openEditors.visible": 0,
   "files.autoSave": "afterDelay",
   "screencastMode.onlyKeyboardShortcuts": true,
-  "terminal.integrated.fontSize": 18,
+  // "terminal.integrated.fontSize": 18,
   "workbench.colorTheme": "Visual Studio Dark",
   "workbench.fontAliasing": "antialiased",
   "workbench.statusBar.visible": true,
-  "notebook.lineNumbers": "on"
+  "notebook.lineNumbers": "on",
+  "python-envs.defaultEnvManager": "ms-python.python:conda",
+  "python-envs.defaultPackageManager": "ms-python.python:conda",
+  "python-envs.pythonProjects": []
 }
