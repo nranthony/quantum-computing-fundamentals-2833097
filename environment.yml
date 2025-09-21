@@ -6,6 +6,7 @@ dependencies:
   - python=3.11
   - jupyter
   - matplotlib
+  - seaborn
   - pip
   - pip:
       - qiskit>=1.0.0
