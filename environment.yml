@@ -1,17 +1,16 @@
 name: qiskit
 channels:
   - conda-forge
-  - defaults
 dependencies:
   - python=3.11
   - jupyter
   - matplotlib
   - seaborn
-  - pip
-  - pip:
-      - qiskit>=1.0.0
-      - qiskit-aer
-      - qiskit-ibm-provider
-      - qiskit-ibm-runtime
-      - pylatexenc
-      - sympy
+  - pylatexenc
+  - sympy
+  - qiskit
+  - qiskit-aer
+  - qiskit-ibm-runtime
+  - qiskit-ibm-provider
+  - qiskit-algorithms
+  - python-dotenv
